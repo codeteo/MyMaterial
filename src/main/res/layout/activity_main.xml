@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_actionbar" />
+
+
+    <Button
+        android:id="@+id/start_activity_button"
+        android:onClick="startSecondActivity"
+        android:text="@string/button_text_startactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
